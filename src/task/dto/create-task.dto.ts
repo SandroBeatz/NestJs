@@ -1,6 +1,6 @@
 import {IsNotEmpty, IsInt, IsOptional, IsPositive, IsString, Length, IsArray, IsEnum} from "class-validator";
 
-enum TaskTag {
+export enum TaskTag {
     WORK   = 'work',
     HOME   = 'home',
 }
